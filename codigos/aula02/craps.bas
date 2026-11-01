@@ -2,7 +2,7 @@
 input "Aposte na soma dos dois dados (2 a 12): ", palpite
 
 if palpite < 2 | palpite > 12
-    print("ERRO! Você digitou um numero maior do que o esperado!")
+    print("ERRO! palpite fora do intervalo de 2 a 12")
 else
     dado1 = floor(6 * rnd()) + 1
     dado2 = floor(6 * rnd()) + 1
